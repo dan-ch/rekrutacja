@@ -1,0 +1,93 @@
+<wypozyczalnia osoby="3" pojazdy="8">
+	<osoba id="1" nick="dan" email="danielch@gmail.com" imie="Daniel" nazwisko="Chodkowski" haslo="dan" wiek="21">
+		<rezerwacja id_sam="0"/>
+		<wypozycza ile_wyp="0"/>
+		<komentarze ilosc="0"/>
+	</osoba>
+	<osobowy id="1" marka="Audi" model="A3" ile_miejsc="5" kolor="czarny" skrzynia="manual" paliwo="diesel" rok="2004" moc="110" poj="1982">
+		<wymagania wiek="18"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="5" ilosc="1"/>
+		<wypozyczenia ilosc="0" teraz_id="0"/>
+		<komentarze ilosc="0"/>
+	</osobowy>
+	<osoba id="2" nick="Jan" email="jank@email.com" imie="Jan" nazwisko="Kowalski" haslo="Jan" wiek="34">
+		<rezerwacja id_sam="0"/>
+		<wypozycza ile_wyp="0"/>
+		<komentarze ilosc="0"/>
+	</osoba>
+	<osoba id="3" nick="Adam" email="adamn@email.com" imie="Andm" nazwisko="Kowalski" haslo="Adam" wiek="56">
+		<rezerwacja id_sam="0"/>
+		<wypozycza ile_wyp="0"/>
+		<komentarze ilosc="0"/>
+	</osoba>
+	<motor id="2" marka="Yamaha" model="R1" typ="torowy" kolor="niebieski" skrzynia="manual" paliwo="benzyna" rok="2009" moc="150" poj="999">
+		<wymagania wiek="24"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="5" ilosc="1"/>
+		<wypozyczenia ilosc="0" teraz_id="0"/>
+		<komentarze ilosc="1">
+			<kom tresc="Piekielnie szybki" nick="Jan"/>
+		</komentarze>
+	</motor>
+	<dostawczy id="3" marka="Fiat" model="Ducato" ladownosc="3500" kolor="bialy" skrzynia="automat" paliwo="diesel" rok="2015" moc="160" poj="2199">
+		<wymagania wiek="20"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="4" ilosc="1"/>
+		<wypozyczenia ilosc="0" teraz_id="0"/>
+		<komentarze ilosc="0"/>
+	</dostawczy>
+	<motor id="4" marka="Yamaha" model="R6" typ="szosowy" kolor="czarny" skrzynia="automat" paliwo="benzyna" rok="2017" moc="110" poj="601">
+		<wymagania wiek="21"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="4.5" ilosc="2"/>
+		<wypozyczenia ilosc="2" teraz_id="0">
+			<wyp numer="1" id_os="1" nick_os="dan" imie_os="Daniel" naz_os="Chodkowski"/>
+			<wyp numer="2" id_os="2" nick_os="Jan" imie_os="Jan" naz_os="Kowalski"/>
+		</wypozyczenia>
+		<komentarze ilosc="1">
+			<kom tresc="Bardzo szybki motor" nick="dan"/>
+		</komentarze>
+	</motor>
+	<osobowy id="5" marka="Fiat" model="Punto" ile_miejsc="4" kolor="czerwony" skrzynia="manual" paliwo="benzyna" rok="2011" moc="75" poj="1200">
+		<wymagania wiek="18"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="0" ilosc="0"/>
+		<wypozyczenia ilosc="0" teraz_id="0"/>
+		<komentarze ilosc="0"/>
+	</osobowy>
+	<dostawczy id="6" marka="Iveco" model="Daily" ladownosc="4500" kolor="czarny" skrzynia="manual" paliwo="diesel" rok="2019" moc="150" poj="1998">
+		<wymagania wiek="20"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="0" ilosc="0"/>
+		<wypozyczenia ilosc="1" teraz_id="0">
+			<wyp numer="1" id_os="3" nick_os="Adam" imie_os="Andm" naz_os="Kowalski"/>
+		</wypozyczenia>
+		<komentarze ilosc="1">
+			<kom tresc="Ekonomiczne auto" nick="Adam"/>
+		</komentarze>
+	</dostawczy>
+	<osobowy id="7" marka="Ford" model="Focus" ile_miejsc="5" kolor="bialy" skrzynia="automat" paliwo="benzyna" rok="2016" moc="170" poj="1597">
+		<wymagania wiek="18"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="3" ilosc="1"/>
+		<wypozyczenia ilosc="1" teraz_id="0">
+			<wyp numer="1" id_os="3" nick_os="Adam" imie_os="Andm" naz_os="Kowalski"/>
+		</wypozyczenia>
+		<komentarze ilosc="1">
+			<kom tresc="Slabo sie prowadzi" nick="dan"/>
+		</komentarze>
+	</osobowy>
+	<osobowy id="8" marka="Honda" model="CR-V" ile_miejsc="7" kolor="zielony" skrzynia="automat" paliwo="benzyna" rok="2014" moc="180" poj="2297">
+		<wymagania wiek="20"/>
+		<rezerwacja id_os="0"/>
+		<ocena wartosc="0" ilosc="0"/>
+		<wypozyczenia ilosc="1" teraz_id="0">
+			<wyp numer="1" id_os="3" nick_os="Adam" imie_os="Andm" naz_os="Kowalski"/>
+		</wypozyczenia>
+		<komentarze ilosc="1">
+			<kom tresc="Duze rodzinne auto" nick="Adam"/>
+		</komentarze>
+	</osobowy>
+</wypozyczalnia>
+

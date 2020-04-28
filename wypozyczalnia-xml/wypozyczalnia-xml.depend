@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1557145892 source:c:\strony i programowanie\c++\laby\wypozyczalnia-xml\wyp.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<windows.h>
+	<conio.h>
+	<cstdlib>
+	<ctime>
+	"rapidxml-1.13/rapidxml.hpp"
+	"rapidxml-1.13/rapidxml_print.hpp"
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	"wyp.hpp"
+	<vector>
+
+1242171978 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\rapidxml-1.13\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1443778604 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\rapidxml-1.13\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1242420562 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\rapidxml-1.13\rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1557144904 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\wyp.hpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<windows.h>
+	<conio.h>
+	<cstdlib>
+	<ctime>
+	"rapidxml-1.13/rapidxml.hpp"
+	"rapidxml-1.13/rapidxml_print.hpp"
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	<vector>
+
+1557054894 source:c:\strony i programowanie\c++\laby\wypozyczalnia-xml\main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<windows.h>
+	<conio.h>
+	<cstdlib>
+	<ctime>
+	"rapidxml-1.13/rapidxml.hpp"
+	"rapidxml-1.13/rapidxml_print.hpp"
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	"wyp.hpp"
+	<vector>
+
+1557092972 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\message.h
+	<string>
+	<vector>
+
+1557053819 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\smtptransoprt.h
+	"message.h"
+
+1557093049 source:c:\strony i programowanie\c++\laby\wypozyczalnia-xml\message.cpp
+	"message.h"
+	<fstream>
+
+1557053490 source:c:\strony i programowanie\c++\laby\wypozyczalnia-xml\smtptransoprt.cpp
+
+1557093049 source:c:\strony i programowanie\c++\laby\wypozyczalnia-xml\smtptransport.cpp
+	"smtptransport.h"
+	<fstream>
+	<sstream>
+	<streambuf>
+	<WinSock2.h>
+
+1557093049 c:\strony i programowanie\c++\laby\wypozyczalnia-xml\smtptransport.h
+	"message.h"
+
