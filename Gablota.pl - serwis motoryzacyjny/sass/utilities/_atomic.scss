@@ -1,0 +1,79 @@
+body {
+  font-family: $Lato;
+  background-color: $light-gray;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 74vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.link-reset {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-reset {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.car {
+  background-image: url(../assets/icon/car-solid.svg);
+  //background-image: url(../../assets/icon/car-solid.svg);
+}
+
+.bike {
+  background-image: url(../assets/icon/motorcycle-solid.svg);
+  // background-image: url(../../assets/icon/motorcycle-solid.svg);
+}
+
+.truck {
+  background-image: url(../assets/icon/truck-solid.svg);
+  //background-image: url(../../assets/icon/truck-solid.svg);
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 55px -9px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.grid-active {
+  display: grid !important;
+}
+
+.arrow-rot {
+  transform: rotate(180deg);
+}
+
+.mobile-active {
+  top: 0 !important;
+}
+
+.display-none {
+  display: none;
+}
+
+.stopro {
+  width: 100%;
+}
+
+.lightbox {
+  display: block;
+  margin: 0 auto;
+  color: gray;
+}

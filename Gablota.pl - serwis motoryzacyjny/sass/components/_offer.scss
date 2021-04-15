@@ -1,0 +1,165 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  &__item {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid $dark-gray;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: $dark-gray;
+    background-color: #fff;
+
+    & img {
+      height: 70px;
+      border-radius: 10px;
+    }
+
+    & div {
+      width: 60%;
+      position: relative;
+    }
+
+    &-title {
+      font-size: 1.2rem;
+      color: $light-blue
+    }
+
+    &-price {
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: $orange;
+      margin: 0;
+    }
+
+  }
+}
+
+@media(min-width: 440px) {
+  .offer {
+    &__item {
+      font-size: 1.2rem;
+      height: 110px;
+
+      &-price {
+        font-size: 1.6rem;
+      }
+
+      &-title {
+        font-size: 1.4rem;
+      }
+
+      & img {
+        height: 90px;
+      }
+    }
+  }
+}
+
+@media(min-width: 540px) {
+  .offer {
+    &__item {
+      font-size: 1.4rem;
+      padding: 10px 0;
+      height: 130px;
+
+      &-price {
+        font-size: 2rem;
+      }
+
+      &-title {
+        font-size: 1.6rem;
+      }
+
+      & img {
+        height: 120px;
+      }
+    }
+  }
+}
+
+@media(min-width: 700px) {
+
+  .offer {
+
+    &__item {
+      font-size: 1.6rem;
+      padding: 10px 0;
+      height: 180px;
+
+      &-price {
+        font-size: 2.5rem;
+      }
+
+      &-title {
+        font-size: 2rem;
+      }
+
+      & img {
+        height: 160px;
+      }
+    }
+  }
+}
+
+@media(min-width: 900px) {
+
+  .offer {
+
+    &__item {
+      font-size: 1.8rem;
+      height: 200px;
+
+      &-price {
+        font-size: 3rem;
+      }
+
+      &-title {
+        font-size: 2.6rem;
+      }
+
+    }
+  }
+}
+
+@media(min-width: 1100px) {
+  .offer {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__item {
+      height: 140px;
+      width: 45%;
+      font-size: 1.4rem;
+
+      &-price {
+        font-size: 2.5rem;
+      }
+
+      &-title {
+        font-size: 1.8rem;
+      }
+
+      & img {
+        height: 120px;
+      }
+    }
+
+
+  }
+
+
+}

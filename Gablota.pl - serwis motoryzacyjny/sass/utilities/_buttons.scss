@@ -1,0 +1,57 @@
+.input {
+  text-align: center;
+  border: 2px solid $dark-gray;
+  border-radius: 36px;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: pointer;
+
+  &-item {
+    width: 100%;
+    border: none;
+    color: $light-blue;
+    text-align-last: center;
+    font-weight: bold;
+    background-color: inherit;
+  }
+
+  &::placeholder {
+    color: $light-blue;
+  }
+
+  &-file {
+    display: none;
+  }
+
+}
+
+.input-line {
+  border: none;
+  border-bottom: 2px solid $dark-gray;
+  margin-bottom: 15px;
+  width: 90%;
+
+  &::placeholder {
+    color: $light-blue;
+  }
+}
+
+.button-confirm {
+  text-align: center;
+  border-radius: 36px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-weight: bold;
+  border: none;
+  background-color: $orange;
+  color: white;
+  height: 30px;
+  width: 80%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $light-blue;
+  }
+}

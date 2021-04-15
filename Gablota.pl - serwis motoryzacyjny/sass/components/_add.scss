@@ -1,0 +1,158 @@
+.addoffer {
+  background-color: #fff;
+  margin: 15px;
+  margin-top: calc(10vh + 15px);
+  border-radius: 15px;
+  box-shadow: 0px 0px 55px -9px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $dark-blue;
+  font-weight: bold;
+
+  &__title {
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+
+  &__bigofferimg {
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  &__images {
+    width: 70%;
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+
+    &-item {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  &__form {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+
+    &-price {
+      grid-column: 1/3;
+      width: 60%;
+    }
+
+    & textarea {
+      grid-column: 1/3;
+      text-align: left;
+      padding: 20px 10px;
+    }
+
+    & button {
+      grid-column: 1/3;
+      margin-bottom: 15px;
+      width: 60%;
+      height: 30px;
+      background-color: $orange;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+@media(min-width: 540px) {
+  .addoffer {
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__form {
+      width: 80%;
+
+      &-price {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media(min-width: 700px) {
+  .addoffer {
+    &__bigofferimg {
+      width: 80%;
+    }
+
+    &__form {
+      width: 70%;
+    }
+  }
+}
+
+
+@media(min-width: 900px) {
+  .addoffer {
+    &__bigofferimg {
+      width: 80%;
+    }
+
+    &__images {
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+
+    &__form {
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 90%;
+      row-gap: 20px;
+
+      &-price {
+        grid-column: 3/3;
+        width: 90%;
+      }
+
+      & textarea {
+        grid-column: 1/4;
+      }
+
+      & button {
+        grid-column: 1/4;
+        width: 40%;
+      }
+
+    }
+  }
+}
+
+@media(min-width:1100px) {
+  .addoffer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__title {
+      width: 100%;
+      text-align: center;
+      font-size: 3.2rem;
+    }
+
+    &__bigofferimg {
+      width: 40%;
+    }
+
+    &__images {
+      width: 55%;
+      row-gap: 30px;
+    }
+
+    &__form {
+      margin-top: 30px;
+    }
+
+    & button {
+      width: 30%;
+    }
+  }
+}

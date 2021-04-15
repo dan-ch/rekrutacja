@@ -1,0 +1,49 @@
+.singup {
+  background-color: #fff;
+  margin-top: calc(10vh + 10px);
+  height: calc(74vh - 30px);
+  border-radius: 15px;
+  box-shadow: 0px 0px 55px -9px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+
+  &__logo {
+    color: $orange;
+    font-size: 3.5rem;
+    margin: 30px;
+  }
+
+  & form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  & a {
+    color: $light-blue;
+  }
+}
+
+@media (min-width: 540px) {
+  .singup {
+    max-width: 500px;
+    height: calc(74vh - 60px);
+    margin: calc(10vh + 30px) auto;
+  }
+}
+
+@media(min-width: 700px) {
+  .singup {
+
+    &__logo {
+      margin: 50px;
+    }
+
+    & button {
+      margin: 25px 0;
+    }
+  }
+}
